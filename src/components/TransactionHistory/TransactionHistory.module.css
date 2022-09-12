@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+  }
+
+.transactionHistory {
+    width: 500px;
+}
+
+.trhead{
+   
+}
+
+.headerItem
+{
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(87, 219, 219);
+    color:white;
+}
+
+.thItem,
+.thItemtype {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+}
+.thItemtype::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+
+.thList:nth-child(even) {
+    background-color: rgb(237, 237, 237);
+  }
